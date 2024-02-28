@@ -1,0 +1,182 @@
+*{
+    text-decoration: none;
+    overflow-x: hidden;
+    
+}
+body{
+    background: url('../../p/background.svg')no-repeat;
+    
+    background-size: cover;
+    background-position-y: 180px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+li:hover{
+    color: gray;
+}
+.container1
+{
+    background-color: #ffffff;
+    /* font-family: "Playfair Display",sans-serif; */
+    padding-right: 20px;
+    padding-left: 15px;
+    
+}
+.logo
+{
+    font-family: "Playfair Display",serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    padding-right: 10px;
+    text-decoration: none;
+    
+}
+.bar
+{
+    display: flex;
+    align-items: center;
+  
+    width: 100%;
+    height: 60px;
+    overflow-y: hidden;
+
+}
+li{
+    list-style: none;
+    font-weight: 500;
+    display: inline-block;
+}
+li a
+{
+    font-weight: 800;
+    margin-left: 118px;
+    display: flex;
+    color: black;
+}
+.mainul
+{
+    margin-left: 220px;
+
+}
+.barimage
+{
+    margin-left: 550px;
+    justify-content: space-between;
+}
+.barimage1
+{
+    margin-left: 36px;
+    
+}
+a{
+    color: black;
+    
+}
+.imagediv
+{
+    position: absolute;
+    overflow-y: hidden;
+    margin-top: -10px;
+    margin-left: -50px;
+    transform: scale(.8);
+    height: 637px;
+    width: 445px;
+    /* background-color: transparent; */
+   
+}
+.texts
+{
+    font-family: "Playfair Display",serif;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    transform: scale(2);
+}
+.gray
+{
+    position: absolute;
+    overflow-y: hidden;
+    margin-top: 120px;
+    margin-left: 420px;
+    transform: scale(2);
+    color: gray;
+}
+.gray1
+{
+    position: absolute;
+    overflow-y: hidden;
+    margin-top: 200px;
+    margin-left: 380px;
+    color: gray;
+}
+.button
+{
+    display: flex;
+    /* background-color: transparent; */
+    border: transparent;
+    font-family: "Playfair Display",serif;
+    font-weight: bold;
+    margin-left: 400px;
+    transform: scale(2);
+    background-color: #c1dcdc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 450px;
+    position: absolute;
+    border-radius: 80%;
+    overflow-y: hidden;
+    
+}
+.button:hover{
+    opacity: 95%;
+    background-color: white;
+   border-radius: 7%;
+    transition: .5s;
+    transform: scale(2.2);
+    perspective: 1000px;
+}
+
+.button1
+{
+    display: flex;
+    /* background-color: transparent; */
+    border: transparent;
+    font-family: "Playfair Display",serif;
+    font-weight: bold;
+    margin-left: 670px;
+    transform: scale(2);
+    background-color: #c1dcdc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 450px;
+    position: absolute;
+    border-radius: 80%;
+    overflow-y: hidden;
+    color: gray;
+}
+
+.button1:hover{
+    opacity: 95%;
+    background-color: white;
+   border-radius: 7%;
+    transition: .5s;
+    transform: scale(2.2);
+    perspective: 1000px;
+}
+.imgcart
+{
+    transform: scale(.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 437px;
+    position: absolute;
+    margin-left: 590px;
+}
+.imgcart:hover
+{
+    opacity: 0%;
+    transition: .3s ;
+}
